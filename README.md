@@ -10,15 +10,15 @@ README
    
    b. 坐标系统 (Coordinate Systems): 实现了模型（Model）、视图（View）和投影（Projection）变换，以及摄像机（Camera）控制。
 
-3. 光照 (Lighting)
+2. 光照 (Lighting)
    
    基础光照 (Basic Lighting): 实现了多种光源（点光源、定向光、聚光灯），以及材质（Materials）和光照贴图（Lighting maps）。
 
-5. 模型加载 (Model Loading)
+3. 模型加载 (Model Loading)
    
    模型加载 (Model Loading): 使用 Assimp 库实现了复杂3D模型的加载和渲染，包括网格（Mesh）和材质的解析。
 
-7. 高级OpenGL特性 (Advanced OpenGL)
+4. 高级OpenGL特性 (Advanced OpenGL)
    
    a. 帧缓冲 (Framebuffers): 实现了帧缓冲，为后处理（Post-processing）效果奠定基础。
    
@@ -28,7 +28,7 @@ README
    
    d. 实例化渲染 (Instancing): 实现了硬件实例化，高效渲染大量相同物体。
 
-9. 高级光照渲染 (Advanced Lighting)
+5. 高级光照渲染 (Advanced Lighting)
     
    a. 高级光照 (Advanced Lighting): 实现了更复杂的渲染技术。
    
@@ -44,10 +44,10 @@ README
    
    g. 环境光遮蔽 (SSAO): 实现了屏幕空间环境光遮蔽（SSAO），增强阴影细节。
 
-11. 基于物理的渲染 (PBR)
-    
+6. 基于物理的渲染 (PBR)
+   
    a. 理论与实现 (Theory & Implementation): PBR 理论 (PBR Theory): 深入理解了 PBR 的核心理论。
-
+   
    b. 光照计算 (Lighting): 基于 PBR 实现了更真实的光照计算。
    
    c. 基于图像的光照 (IBL): 实现了基于图像的光照（IBL），为场景提供更加真实的环境光照。
@@ -55,8 +55,8 @@ README
    d. PBR + IBL + 点光源的实现
     
 如何运行 (How to Run)：
-本项目基于Microsoft Visual Studio 2022， C++23编写
-依赖以下库：GLFW3，GLAD，Assimp，stb_image
-Shader（着色器）考虑到兼容性和渲染特性使用权限，均使用#version 330， 能达到一个不错的渲染效果
+本项目基于Microsoft Visual Studio 2022， C++23编写；
+依赖以下库：GLFW3，GLAD，Assimp，stb_image；
+Shader（着色器）考虑到兼容性和渲染特性使用权限，均使用#version 330， 能达到一个不错的渲染效果。
 
 欢迎任何对图形学感兴趣的朋友进行交流和贡献！
