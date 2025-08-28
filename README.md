@@ -57,6 +57,6 @@ README
 如何运行 (How to Run)：
 本项目基于Microsoft Visual Studio 2022， C++23编写；
 依赖以下库：GLFW3，GLAD，Assimp，stb_image；
-Shader（着色器）考虑到兼容性和渲染特性使用权限，均使用#version 330， 能达到一个不错的渲染效果。
+Shader（着色器）考虑到兼容性和渲染特性，均使用#version 330，能达到一个不错的渲染效果。
 
 欢迎任何对图形学感兴趣的朋友进行交流和贡献！
