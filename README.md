@@ -1,8 +1,7 @@
 # **README**
 
 ## 项目简介 (Project Overview)
-- 这是一个基于OpenGL实现的个人3D图形渲染引擎项目。本仓库记录了我从基础概念到高级技术的学习历程，所有实现均严格遵循教程目录，旨在通过实践深入掌握现代图形渲染管线。
-- 包括但不限于一下几大主要实现内容 (Key Features)
+这是一个基于OpenGL实现的个人3D图形渲染引擎项目。本仓库记录了我从基础概念到高级技术的学习历程，所有实现均严格遵循教程目录，旨在通过实践深入掌握现代图形渲染管线，包括但不限于以下几大主要实现内容 (Key Features)。
 ## 1. 入门 (Introduction)
 - OpenGL 基础 (Getting Started with OpenGL): 实现了窗口创建、基本着色器（Shaders）和纹理（Textures）。
 - 坐标系统 (Coordinate Systems): 实现了模型（Model）、视图（View）和投影（Projection）变换，以及摄像机（Camera）控制。
