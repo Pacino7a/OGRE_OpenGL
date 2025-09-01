@@ -1,4 +1,50 @@
 # **README**
+- **PBR**
+<p align="center">
+  <img src="images/PBR1.png" width="300" />
+  <img src="images/PBR2.png" width="300" />
+  <img src="images/PBR3.png" width="300" />
+  <img src="images/PBR4.png" width="300" />
+</p>
+
+- **SSAO**
+<p align="center">
+  <img src="images/SSAO.png" width="344" />
+  <img src="images/SSAO1.png" width="350" />
+</p>
+
+- **Shadow Render**
+<p align="center">
+  <img src="images/shadow1.png" width="350" />
+  <img src="images/shadow2.png" width="350" />
+</p>
+
+- **Deferred Render**
+<p align="center">
+  <img src="images/deferredRender.png" width="400" />
+</p>
+
+- **Instancing (10000+Objs, 120+FPS)**
+<p align="center">
+  <img src="images/instancing.png" width="400" />
+</p>
+
+- **Parallax**
+<p align="center">
+  <img src="images/parallax.png" width="400" />
+</p>
+
+- **HDR with Bloom & AA (Anti-Aliasing)**
+<p align="center">
+  <img src="images/HDR.png" width="350" />
+  <img src="images/AA.png" width="350" />
+</p>
+
+- **Advanced GLSL & Postprocess**
+<p align="center">
+  <img src="images/blendAndStencilUse.png" width="350" />
+  <img src="images/postprocess.png" width="350" />
+</p>
 
 ## 项目简介 (Project Overview)
 这是一个基于OpenGL实现的个人3D图形渲染引擎项目。本仓库记录了我从基础概念到高级技术的学习历程，所有实现均严格遵循教程目录，旨在通过实践深入掌握现代图形渲染管线，包括但不限于以下几大主要实现内容 (Key Features)。
