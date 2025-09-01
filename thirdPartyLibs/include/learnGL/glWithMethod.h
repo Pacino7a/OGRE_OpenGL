@@ -2,6 +2,7 @@
 #include <string>
 #include <vector>
 #include <glad/glad.h>
+//#include <glad43/glad.h> // OpenGL 4.3 for debug feature
 #include <GLFW/glfw3.h>
 #include <learnGL/camera.h>
 #include <learnGL/config.h>
@@ -36,7 +37,7 @@ std::vector<unsigned int> getFBO_Tex(int SCR_WIDTH = g_framebuffer_width, int SC
 std::vector<unsigned int> getMutisampleFBO_Tex(int sampler, int SCR_WIDTH = g_framebuffer_width, int SCR_HEIGHT = g_framebuffer_height);
 std::pair<unsigned int, unsigned int> getDMsFBO_MAP(int SHADOW_WIDTH = 1024, int SHADOW_HEIGHT = 1024); // DM -- DepthMap's FBO [x] and Map [y]
 std::pair<unsigned int, unsigned int> getDCMsFBO_MAP(int SHADOW_WIDTH = 1024, int SHADOW_HEIGHT = 1024); // DCM -- DepthCubeMap's FBO[x] and Map[y]
-unsigned int getUBO(int bindingPoint, unsigned int shaderID, std::size_t structureSize, const char* shaderStructName);
+unsigned int getUBO(std::size_t structureSize);
 std::vector<unsigned int> getHDR_FBO_Tex(int SCR_WIDTH = g_framebuffer_width, int SCR_HEIGHT = g_framebuffer_height);
 std::vector<unsigned int> getHDR_FBO_MutipleTex(std::vector<unsigned int>& hdrTextures, int SCR_WIDTH = g_framebuffer_width, int SCR_HEIGHT = g_framebuffer_height);
 std::vector<unsigned int> getPingPongFBOs(int SCR_WIDTH = g_framebuffer_width, int SCR_HEIGHT = g_framebuffer_height);
@@ -51,6 +52,9 @@ std::vector<glm::vec3> getSSAOKernel(int kernelSize = 64);
 std::vector<glm::vec3> getSSAONoise(int kernelSize = 16);
 unsigned int getSSAONoiseTex(const std::vector<glm::vec3>& ssaoNoise);
 std::vector<unsigned int> getSSAO_FBO_Tex(int SCR_WIDTH = g_framebuffer_width, int SCR_HEIGHT = g_framebuffer_height);
+//GLenum glCheckError_(const char* file, int line);
+//void APIENTRY glDebugOutput(GLenum source, GLenum type, unsigned int id, GLenum severity,
+//	GLsizei length, const char* message, const void* userParam);
 
 #ifdef __MULTISAMPLE__
 void updateFramebuffer(const unsigned int textureAtt, const unsigned int RBO, const bool isMultisample = false);
