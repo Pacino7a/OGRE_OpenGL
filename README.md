@@ -29,7 +29,7 @@
   <img src="images/instancing.png" width="400" />
 </p>
 
-- **Parallax**
+- **Parallax & SkyBox**
 <p align="center">
   <img src="images/parallax.png" width="400" />
 </p>
