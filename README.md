@@ -29,9 +29,16 @@
   <img src="images/instancing.png" width="400" />
 </p>
 
-- **Parallax & SkyBox**
+- **Skybox**
 <p align="center">
-  <img src="images/parallax.png" width="400" />
+  <img src="images/skybox.png" width="400" />
+</p>
+
+- **Parallax**
+<p align="center">
+  <img src="images/parallax.png" width="300" />
+  <img src="images/parallax1.png" width="300" />
+  <img src="images/parallax2.png" width="300" />
 </p>
 
 - **HDR with Bloom & AA (Anti-Aliasing)**
